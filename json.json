@@ -1,0 +1,45 @@
+{
+    "list": {
+        "changed": false,
+        "examined": 110,
+        "failed": false,
+        "files": [
+            {
+                "atime": 1691230604.31029,
+                "ctime": 1691230604.31029,
+                "dev": 2051,
+                "gid": 0,
+                "gr_name": "root",
+                "inode": 4849781,
+                "isblk": false,
+                "ischr": false,
+                "isdir": false,
+                "isfifo": false,
+                "isgid": false,
+                "islnk": false,
+                "isreg": true,
+                "issock": false,
+                "isuid": false,
+                "mode": "0644",
+                "mtime": 1691230604.31029,
+                "nlink": 1,
+                "path": "/etc/systemd/system/touch.war",
+                "pw_name": "root",
+                "rgrp": true,
+                "roth": true,
+                "rusr": true,
+                "size": 0,
+                "uid": 0,
+                "wgrp": false,
+                "woth": false,
+                "wusr": true,
+                "xgrp": false,
+                "xoth": false,
+                "xusr": false
+            }
+        ],
+        "matched": 1,
+        "msg": "All paths examined",
+        "skipped_paths": {}
+    }
+}
