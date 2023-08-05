@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+
+    - name: Find files
+      ansible.builtin.find:
+        paths: /etc/systemd/system/
+        recurse: yes
+        file_type: file
+        patterns: '*war'
+      register: list
+
+    - name: Get war files
+      ansible.builtin.shell: "cat {{ list.path }}"
