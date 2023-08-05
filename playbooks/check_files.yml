@@ -13,4 +13,4 @@
 
     - name: check files
       ansible.builtin.debug:
-        var: list.path
+        var: list
