@@ -11,5 +11,6 @@
         patterns: '*war'
       register: list
 
-    - name: Get war files
-      ansible.builtin.shell: "cat {{ list.path }}"
+    - name: check files
+      ansible.builtin.debug:
+        var: list.path
